@@ -1,0 +1,25 @@
+GET http://localhost:3000/youtubers 
+
+###
+GET http://localhost:3000/youtubers
+
+
+###
+POST http://localhost:3000/youtubers
+Content-Type: application/json
+
+{
+    "name":"hailo",
+    "youtubedToChannel":"no"
+}
+
+###
+DELETE http://localhost:3000/youtubers/62137c6b543e9de7f0586934
+
+###
+PATCH http://localhost:3000/youtubers/621373591181a74a252683a6
+Content-Type: application/json
+
+{
+    "name":"new person"
+}

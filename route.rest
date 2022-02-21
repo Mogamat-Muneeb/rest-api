@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers 
+
+###
+GET http://localhost:3000/subscribers
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"mmm",
+    "subscribedToChannel":"muneeb"
+}
+
+###
+DELETE http://localhost:3000/subscribers/62137c6b543e9de7f0586934
+
+###
+PATCH http://localhost:3000/subscribers/621373591181a74a252683a6
+Content-Type: application/json
+
+{
+    "name":"new person"
+}
